@@ -97,7 +97,7 @@ const PROJECTS = [
 /* ─── Socials ──────────────────────────────────────── */
 const SOCIALS = [
   { icon: GithubIcon, href: 'https://github.com/Abdur-Rahman10', label: 'GitHub' },
-  { icon: LinkedinIcon, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/abdur-rahman-r5722/', label: 'LinkedIn' },
   { icon: Mail, href: null, label: 'Email', isEmail: true },
 ];
 
