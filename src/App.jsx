@@ -65,7 +65,7 @@ const PROJECTS = [
   {
     title: "R's Cookie Store",
     desc: 'A responsive, custom-styled cookie store website built with HTML, CSS, and JavaScript.',
-    img: "public/assets/R's-Cookie-Store.png",
+    img: "/assets/rs-cookie-store.png",
     alt: "Screenshot of R's Cookie Store",
     buttons: [
       { label: 'Live Site', link: 'https://r-cookie-store.onrender.com/', type: 'solid' },
@@ -75,7 +75,7 @@ const PROJECTS = [
   {
     title: 'Simple node blog',
     desc: 'A full-stack blog platform built with Node.js and Express, enabling content creation and management.',
-    img: 'public/assets/Simple-node-blog.png',
+    img: "/assets/simple-node-blog.png",
     alt: 'Screenshot of Simple node blog',
     buttons: [
       { label: 'Live Site', link: 'https://simple-node-blog.onrender.com/', type: 'solid' },
@@ -85,7 +85,7 @@ const PROJECTS = [
   {
     title: 'Classic Simon Game',
     desc: 'A web-based memory sequence game built with vanilla JavaScript, featuring dynamic audio and visual feedback.',
-    img: 'public/assets/Classic-Simon-Game.png',
+    img: "/assets/classic-simon-game.png",
     alt: 'Screenshot of Classic Simon Game',
     buttons: [
       { label: 'Live Site', link: 'https://abdur-rahman10.github.io/Classic-Simon-Game/', type: 'solid' },
