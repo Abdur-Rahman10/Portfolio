@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ────────────────────────────────────────── */
+html {
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'avalon', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ─── Link reset ──────────────────────────────────── */
+a {
+  text-decoration: none;
+}
+
+/* ─── Hardware Acceleration ───────────────────────── */
+.gpu-accelerated {
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
